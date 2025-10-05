@@ -16,16 +16,25 @@ function App() {
   //making of interface for object
 
   type PersonInterface = {
-    //creatign interface for objects and the types
+    //creatign interface for objects and the types and if i want to make something optional we use ? 
     name:string,
-    age:number
+    age:number,
+    phone?:number
   }
   let person: PersonInterface ={
     name: "Sachin",
     age: 23
   }
 
-  console.log(person)
+  // if i want to make the array of type/interface of PersonInterface
+
+  let lotsOfPerson: PersonInterface[];
+
+  //using the interface
+  lotsOfPerson = [{name:"Sachin", age:21},{name:"Sharma", age:90}]
+  console.log(lotsOfPerson)
+
+  // console.log(person)
   
   return (
    <div>
