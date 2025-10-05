@@ -26,7 +26,15 @@ function App() {
     age: 23
   }
 
-  console.log(person)
+  // if i want to make the array of type/interface of PersonInterface
+
+  let lotsOfPerson: PersonInterface[];
+
+  //using the interface
+  lotsOfPerson = [{name:"Sachin", age:21},{name:"Sharma", age:90}]
+  console.log(lotsOfPerson)
+
+  // console.log(person)
   
   return (
    <div>
