@@ -16,9 +16,10 @@ function App() {
   //making of interface for object
 
   type PersonInterface = {
-    //creatign interface for objects and the types
+    //creatign interface for objects and the types and if i want to make something optional we use ? 
     name:string,
-    age:number
+    age:number,
+    phone?:number
   }
   let person: PersonInterface ={
     name: "Sachin",
