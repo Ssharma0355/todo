@@ -42,6 +42,11 @@ function App() {
   // console.log(salary)
   // we can add both string and number if we dont know what to keep the type then we use union | for defining both types in typescript
   
+
+  // Type Any and Unknown
+  // let nemu: any; no recommended
+  // let nemu: unknown; unknown is recommended
+  // nemu = 32
   return (
    <div>
 
