@@ -34,7 +34,13 @@ function App() {
   lotsOfPerson = [{name:"Sachin", age:21},{name:"Sharma", age:90}]
   console.log(lotsOfPerson)
 
-  // console.log(person)
+  // making union for type
+  let salary: string | number;
+
+  // salary = "32";
+  // salary = 32;
+  // console.log(salary)
+  // we can add both string and number if we dont know what to keep the type then we use union | for defining both types in typescript
   
   return (
    <div>
