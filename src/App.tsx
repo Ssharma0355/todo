@@ -47,8 +47,11 @@ function App() {
   // let nemu: any; no recommended
   // let nemu: unknown; unknown is recommended
   // nemu = 32
+
+  // we can extend in interface and & in type but we can not merge in type but we can merge in Interface
   return (
    <div>
+    <h1>Sachin Sharma SUV</h1>
 
    </div>
   );
