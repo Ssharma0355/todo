@@ -1,0 +1,9 @@
+.todo{
+    padding: 8px;
+    border: 1px solid black;
+    width: 100%;
+    align-items: center;
+    text-align: start;
+    margin: 6px;
+    border-radius: 1rem;
+}
