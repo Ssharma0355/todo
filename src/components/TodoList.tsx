@@ -10,11 +10,9 @@ const TodoList: React.FC<Props> = ({todos}) => {
   return (
     <div>
      {todos.map(t=>(
-        <div className='todo' key={t.id}>{t.todo}
+        <div className='todo' key={t.id}>
         <h1>{t.todo}</h1>
-         <h1>{t.todo}</h1>
         </div>
-        
      ))}
       
     </div>
